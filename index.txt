@@ -1,0 +1,35 @@
+apartmani/
+├── src/
+│   ├── Admin/
+│   │   ├── AdminMenu.php
+│   │   ├── SettingsPage.php
+│   │   ├── MetaBox.php
+│   ├── Traits/
+│   │   ├── Singleton.php
+│   │   ├── Sanitization.php
+│   ├── Interfaces/
+│   │   ├── PostTypeInterface.php
+│   │   ├── PostMetaBoxInterface.php
+│   │   ├── AdminPageInterface.php
+│   ├── CustomPostTypes/
+│   │   ├── ApartmentsPostType.php
+│   ├── Taxonomies/
+│   │   ├── CategoryTaxonomy.php
+│   ├── Helpers/
+│   │   ├── Utils.php
+│   │   ├── Validator.php
+│   ├── Frontend/
+│   │   ├── Shortcodes.php
+│   │   ├── Templates.php
+│   └── Plugin.php
+├── tests/
+│   ├── Unit/
+│   │   ├── AdminMenuTest.php
+│   │   ├── SettingsPageTest.php
+│   ├── Integration/
+│   │   ├── PluginActivationTest.php
+├── vendor/
+├── apartmani.php
+├── composer.json
+├── phpunit.xml.dist
+├── README.md
